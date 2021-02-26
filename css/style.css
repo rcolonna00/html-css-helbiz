@@ -5,17 +5,16 @@
 }
 
 /* COMMON */
-.text-right{
-}
-
 .margin-right{
     border-right: 1px solid black;
 }
 
 /* FOOTER */
+/* NAV */
 .contain-nav{
     max-width: 992px;
     margin: auto;
+    padding: 20px 0;
 }
 
 .menu ul {
@@ -35,5 +34,53 @@
     padding: 0 10px;
 }
 
+.menu .lingua ul {
+    text-align: left;
+}
 
+.menu .contain .lingua li{
+    border-left: 1px solid black ;
+}
+
+.menu .contain .lingua li:first-child{
+    border: none;
+}
+
+.menu .lingua li a{
+    padding: 0 5px;
+}
+
+.burger-menu{
+    text-align: right;
+    font-size: 23px;
+}
+/* FINE NAV */
+
+/* JUMBOTRON */
+.jumbotron{
+    background-image: url(../img/hero-bg.jpg);
+    height: 550px;
+    background: contain;
+    color: white;
+}
+
+.finestra-motto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.finestra-motto div{
+    padding: 15px 0;
+}
+/* FINE JUMBOTRON */
 /* FINE FOOTER */
+
+/*MAIN*/
+/*FINE MAIN*/
