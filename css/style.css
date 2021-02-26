@@ -1,0 +1,39 @@
+/* TEST */
+.alt-col{
+    height: 200px;
+    background-color: yellow;
+}
+
+/* COMMON */
+.text-right{
+}
+
+.margin-right{
+    border-right: 1px solid black;
+}
+
+/* FOOTER */
+.contain-nav{
+    max-width: 992px;
+    margin: auto;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu  li{
+    display: inline-block;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    padding: 0 10px;
+}
+
+
+/* FINE FOOTER */
